@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Responsive website Html & Tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+
+</head>
+<body class="bg-gray-100 text-gray-800">
+    
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <a href="#" class="text-2xl font-bold text-blue-600">MyWebsite</a>
+          <nav class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-blue-600">Home</a>
+            <a href="#" class="hover:text-blue-600">About</a>
+            <a href="#" class="hover:text-blue-600">Services</a>
+            <a href="#" class="hover:text-blue-600">Contact</a>
+          </nav>
+          <button class="md:hidden text-gray-600 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+          </button>
+        </div>
+    </header>  
+    <section class="bg-blue-600 text-white">
+        <div class="container mx-auto px-6 py-16 text-center">
+          <h1 class="text-4xl font-bold mb-4">Welcome to MyWebsite</h1>
+          <p class="text-lg mb-6">Create modern, responsive websites with ease using Tailwind CSS.</p>
+          <a href="#services" class="bg-white text-blue-600 px-6 py-3 rounded-lg shadow hover:bg-blue-100">Get Started</a>
+        </div>
+      </section>
+      <section id="services" class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white shadow rounded-lg p-6 text-center">
+            <h3 class="text-xl font-bold mb-4">Web Design</h3>
+            <p>Creative and modern web design solutions tailored to your needs.</p>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6 text-center">
+            <h3 class="text-xl font-bold mb-4">Development</h3>
+            <p>High-quality development to bring your ideas to life.</p>
+          </div>
+          <div class="bg-white shadow rounded-lg p-6 text-center">
+            <h3 class="text-xl font-bold mb-4">SEO Optimization</h3>
+            <p>Enhance your online presence with our SEO strategies.</p>
+          </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+          <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
+      </footer>
+            
+        
+    
+    
+         
+    
+    
+</body>
+</html>
